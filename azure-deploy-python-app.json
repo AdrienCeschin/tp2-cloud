@@ -356,8 +356,7 @@
         "typeHandlerVersion": "2.0",
         "autoUpgradeMinorVersion": true,
         "settings": {
-          "fileUris": [
-            "[uri(parameters('_artifactsLocation'), concat('scripts/python-proxy-install-ubuntu.sh', parameters('_artifactsLocationSasToken')))]"
+          "fileUris": ["https://raw.githubusercontent.com/AdrienCeschin/tp2-cloud/master/app-python-install.bash"
           ],
           "commandToExecute": "sudo bash app-python-install.sh"
         }
